@@ -1,0 +1,204 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body {
+  color: #fff;
+  background-image: linear-gradient(to bottom, rgb(163, 62, 194) ,rgb(86, 42, 156));
+  font-family: sans-serif;
+
+  background-repeat:no-repeat;
+  position: relative;
+  
+}
+
+.main{
+  display: flex;
+  width: 50%;
+  height: 100vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+
+.flex-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5rem;
+}
+/* button */
+.flex-button {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top:3rem ;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 1.4rem 3rem 1.4rem;
+  border-radius: 11px;
+  border: none;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+
+}
+
+.deal {
+  color: #fff;
+  background-color: rgba(0, 128, 117, 0.233);
+  
+}
+
+.hit {
+  background-color: rgba(0, 128, 0, 0.541);
+  color: #fff;
+  
+}
+.stay{
+  background-color: rgba(255, 238, 3, 0.37);
+  color: #fff;
+  
+}
+
+.first-player {
+  background-color:rgba(147, 79, 177, 0.623) ;
+  width: 500rem;
+  height: 50rem;
+  padding: 7rem;
+  position: relative;
+ 
+  
+}
+
+.second-player{
+  width: 500rem;
+  height: 50rem;
+  padding: 7rem;
+  background-color:rgba(112, 57, 136, 0.623) ;
+
+}
+
+
+.score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5rem;
+}
+
+.dealer {
+  margin-top: 6rem;
+  padding: 2rem;
+}
+
+.you{
+  margin-top: 6rem;
+  padding: 2rem;
+
+}
+.player {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+
+.second-player img {
+  height: 125px;
+  width: 100px;
+  margin: 1px;
+}
+
+.first-player img {
+  height: 125px;
+  width: 100px;
+  
+  margin: 1px;
+}
+
+#results {
+  display: flex;
+  position: absolute;
+  background-color: rgba(255, 0, 0, 0.267);
+ justify-content: center;
+ border-radius: 0.5rem;
+ align-items: center;
+ font-size: 2rem;
+  width: 20rem;
+  height: 6rem;
+  right: -9.5rem;
+  top: -6rem;
+
+}
+
+.container {
+  max-width: 159rem;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  
+  
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.game-name {
+  font-size: 2.3rem;
+  font-size: 2.3rem;
+  background-color: black;
+  height: 6rem;
+  width: 20rem;
+
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+ border-radius: 0.5rem;
+ align-items: center;
+  
+}
+
+
+.plays{
+  height: 6rem;
+  width: 20rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.reload-mess{
+  height: 6rem;
+  width: 20rem;
+  background-color: rgb(38, 28, 247);
+  margin-top: 2rem;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
